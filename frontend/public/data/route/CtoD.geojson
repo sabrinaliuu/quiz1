@@ -1,0 +1,189 @@
+{
+  "code": "Ok",
+  "waypoints": [
+    {"location": [121.530407, 25.033749], "name": "信義路二段", "distance": 2.336},
+    {"location": [121.532203, 25.033776], "name": "", "distance": 18.767}
+  ],
+  "routes": [
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.530407, 25.033749],
+          [121.530487, 25.033739],
+          [121.531003, 25.033726],
+          [121.531139, 25.033721],
+          [121.531141, 25.033798],
+          [121.53135, 25.033793],
+          [121.532203, 25.033776]
+        ]
+      },
+      "distance": 189.637,
+      "duration": 152.968,
+      "weight": 191.876,
+      "weight_name": "pedestrian",
+      "legs": [
+        {
+          "steps": [
+            {
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [121.530407, 25.033749],
+                  [121.530487, 25.033739],
+                  [121.531003, 25.033726],
+                  [121.531139, 25.033721]
+                ]
+              },
+              "mode": "walking",
+              "driving_side": "right",
+              "distance": 73.965,
+              "duration": 71.478,
+              "weight": 89.347,
+              "name": "信義路二段",
+              "maneuver": {
+                "location": [121.530407, 25.033749],
+                "bearing_before": 0,
+                "bearing_after": 94,
+                "instruction": "Walk east on 信義路二段.",
+                "type": "depart"
+              },
+              "intersections": [
+                {
+                  "location": [121.530407, 25.033749],
+                  "geometry_index": 0,
+                  "admin_index": 0,
+                  "is_urban": true,
+                  "out": 0,
+                  "entry": [true],
+                  "bearings": [94],
+                  "mapbox_streets_v8": {"class": "secondary"}
+                }
+              ]
+            },
+            {
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [121.531139, 25.033721],
+                  [121.531141, 25.033798]
+                ]
+              },
+              "mode": "walking",
+              "driving_side": "right",
+              "distance": 8.574,
+              "duration": 6.038,
+              "weight": 22.076,
+              "name": "信義路二段243巷",
+              "maneuver": {
+                "location": [121.531139, 25.033721],
+                "bearing_before": 92,
+                "bearing_after": 1,
+                "modifier": "left",
+                "instruction": "Turn left onto 信義路二段243巷.",
+                "type": "turn"
+              },
+              "intersections": [
+                {
+                  "location": [121.531139, 25.033721],
+                  "geometry_index": 3,
+                  "admin_index": 0,
+                  "is_urban": true,
+                  "turn_weight": 10,
+                  "in": 2,
+                  "out": 0,
+                  "entry": [true, true, false],
+                  "bearings": [1, 92, 272],
+                  "mapbox_streets_v8": {"class": "service"}
+                }
+              ]
+            },
+            {
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [121.531141, 25.033798],
+                  [121.53135, 25.033793],
+                  [121.532203, 25.033776]
+                ]
+              },
+              "mode": "walking",
+              "driving_side": "right",
+              "distance": 107.098,
+              "duration": 75.453,
+              "weight": 80.453,
+              "name": "",
+              "maneuver": {
+                "location": [121.531141, 25.033798],
+                "bearing_before": 1,
+                "bearing_after": 92,
+                "modifier": "right",
+                "instruction": "Turn right onto the walkway.",
+                "type": "turn"
+              },
+              "intersections": [
+                {
+                  "location": [121.531141, 25.033798],
+                  "geometry_index": 4,
+                  "admin_index": 0,
+                  "is_urban": true,
+                  "turn_weight": 5,
+                  "in": 2,
+                  "out": 1,
+                  "entry": [true, true, false, true],
+                  "bearings": [1, 92, 181, 272],
+                  "mapbox_streets_v8": {"class": "service"}
+                }
+              ]
+            },
+            {
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [121.532203, 25.033776],
+                  [121.532203, 25.033776]
+                ]
+              },
+              "mode": "walking",
+              "driving_side": "right",
+              "distance": 0,
+              "duration": 0,
+              "weight": 0,
+              "name": "",
+              "maneuver": {
+                "location": [121.532203, 25.033776],
+                "bearing_before": 91,
+                "bearing_after": 0,
+                "modifier": "left",
+                "instruction": "Your destination is on the left.",
+                "type": "arrive"
+              },
+              "intersections": [
+                {
+                  "location": [121.532203, 25.033776],
+                  "geometry_index": 6,
+                  "admin_index": 0,
+                  "in": 0,
+                  "entry": [true],
+                  "bearings": [271]
+                }
+              ]
+            }
+          ],
+          "summary": "信義路二段, 信義路二段243巷",
+          "distance": 189.637,
+          "duration": 152.968,
+          "weight": 191.876,
+          "admins": [{"iso_3166_1": "TW", "iso_3166_1_alpha3": "TWN"}],
+          "annotation": {
+            "duration": [7.884, 50.232, 13.245, 6.038, 14.85, 60.571],
+            "distance": [8.2, 52, 13.8, 8.5, 21.1, 86],
+            "speed": [1, 1, 1, 1.4, 1.4, 1.4]
+          },
+          "via_waypoints": []
+        }
+      ]
+    }
+  ],
+  "uuid": "DCxhyUxDz0vCB_RGrQyj1Jhelb0G08_7iiCBE9JBKwF3DviHhuie1w=="
+}
